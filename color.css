@@ -1,0 +1,107 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@200&display=swap');
+
+:root {
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Roboto', sans-serif;
+    --text-primary-color: #fff;
+}
+
+/*Global Css start */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+
+
+}
+
+.ghost {
+    border: 1px solid white;
+
+}
+
+.primary-btn {
+    background-color: red;
+    color: white;
+}
+
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-family: var(--font-primary);
+    text-align: center;
+    font-weight: 800;
+    color: var(--text-primary-color);
+}
+
+/*global css end */
+
+/*hero start here */
+
+.hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(welcome-hero.jpg);
+    min-height: 100vh;
+
+}
+
+.netflix-navbar {
+    display: flex;
+    padding: 1rem 0rem;
+    justify-content: space-between;
+    /* background-color: blue; */
+
+}
+
+.hero .netflix-navbar .logo img {
+    height: 3rem;
+    width: 9rem;
+
+}
+
+.hero .netflix-content {
+    /* background-color: green; */
+    padding: 4rem 0rem;
+}
+
+.hero .btn-email {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    border: none;
+    outline: none;
+    color: var(--text-primary-color);
+}
+
+.hero .btn-email .email {
+    padding: 0.5rem;
+    width: 25rem;
+    height: 1rem;
+    background-color: transparent;
+}
+
+
+/*hero end here */
+
+
+p {
+    font-size: 16px;
+    color: var(--text-primary-color);
+    text-align: center;
+    font-family: var(--font-primary);
+    line-height: 2.5rem;
+}
+
